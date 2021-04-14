@@ -1,0 +1,14 @@
+{
+  "browsers": "chrome:headless",
+  "src": "./suites/*.test.ts",
+  "screenshots": {
+    "path": "./screenshots",
+    "pathPattern": "${DATE}T${TIME}-${FIXTURE}_${TEST}-${TEST_INDEX}-Q${QUARANTINE_ATTEMPT}-${FILE_INDEX}",
+    "takeOnFails": true,
+    "fullPage": false
+  },
+  "assertionTimeout": 20000,
+  "pageLoadTimeout": 20000,
+  "selectorTimeout": 20000,
+  "disablePageCaching": true
+}

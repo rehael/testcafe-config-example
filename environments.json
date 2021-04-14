@@ -1,0 +1,8 @@
+{
+  "dev": {
+    "siteUrl": "http://example.net/"
+  },
+  "prod": {
+    "siteUrl": "http://example.com/"
+  }
+}
