@@ -17,15 +17,16 @@ production.
 
 1. Define environment variable you will use to drive the choice of
    configuration with. By default it's `env`, but you can set your
-   own in [`config.ts`]().
+   own in [`config.ts`](./config.ts).
 
-2. Define your configuration in [`environments.json`]() (or any other
-   file – the file name is in [`config.ts`]()).
+2. Define your configuration in [`environments.json`](./environments.json) (or any other
+   file – the file name is in [`config.ts`](./config.ts)).
 
 3. In your test suite, import `getConfig` from `config`, call it,
    and you have access to your data in your tests now.
 
-You can also use `--env=xxx` parameter - but it will work only when you state browsers and scripts-src in the command line too, before using that unknown by TestCafé parameter.
+You can also use `--env=xxx` parameter - but it will work only when you state browsers
+and scripts-src in the command line too, before using that unknown by TestCafé parameter.
 
 Setting your CI/CD pipeline variables is not discussed here – roll it on your own.
 
