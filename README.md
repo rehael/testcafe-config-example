@@ -51,4 +51,13 @@ Done in 8.29s.
 
 ## License
 
-[Unlicense](LICENSE) – just take it and do whatever you need.
+This work is dual-licensed under the UNLICENSE or MIT license.
+
+[Unlicense](./LICENSE) – just take it and do whatever you need.
+
+If you want indemnity against claims of copyright infringement, and/or you are
+in a jurisdiction that does not recognize the public domain, and/or you are in
+a jurisdiction that does not recognize the right of a authors to dedicate their
+work to the public domain – you may use this work upon the grounds of MIT
+license, contained in [LICENSE.MIT](./LICENSE.MIT) file.
+
